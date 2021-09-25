@@ -1,0 +1,17 @@
+Bài 5 : Các lệnh git đã học và tác dụng của chúng:
+    
+    git init : Khởi tạo 1 git repository 1 project mới hoặc đã có.
+    
+    git add . : Thêm thay đổi đến stage/index trong thư mục làm việc.
+    
+    git pull : : Tải những thay đổi của dự án mới về máy
+    
+    git status : Để check trạng thái của những file bạn đã thay đổi trong thư mục làm việc. VD: Tất cả các thay đổi cuối cùng từ lần commit cuối cùng.
+    
+    git remote + link dẫn : Tạo một bản sao từ nhánh từ giao tiếp với các remote khác 
+    
+    git clone + link git : copy một git repository từ remote nguồn
+    
+    git commit -m " " : commit nghĩa là một action để Git lưu lại một snapshot của các sự thay đổi trong thư mục làm việc. Và các tập tin, thư mục được thay đổi đã phải nằm trong Staging Area. Mỗi lần commit nó sẽ được lưu lại lịch sử chỉnh sửa của code kèm theo tên và địa chỉ email của người commit.
+    
+    git push origin master : Để đẩy những thay đổi cục bộ lên nhánh làm việc chính
